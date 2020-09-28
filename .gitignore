@@ -7,6 +7,12 @@
 #
 .vscode/
 
+#
+# C# build files
+#
+bin/
+obj/Debug/
+
 tomcat
 
 #
