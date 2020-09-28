@@ -8,7 +8,7 @@ namespace BankSim {
         private long numTransactions;
 
         private readonly int initialBalance;
-        public readonly int NumAccounts { get; }
+        public int NumAccounts { get; }
 
         public Bank(int numAccounts, int initialBalance){
             this.initialBalance = initialBalance;
@@ -34,7 +34,7 @@ namespace BankSim {
         }
 
         public void test(){
-            int sum = this.accounts.Sum<Account>(acc => acc.Balance);
+            int sum = this.accounts.Sum<Account>(acc => acc.GetBalance());
             Console.WriteLine($"Total balance: {sum}");
             if (sum == this.NumAccounts * this.initialBalance){
                 Console.WriteLine("Total balance unchanged");

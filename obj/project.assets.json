@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/paul/Storage/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
+      "projectUniqueName": "/home/paul/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
       "projectName": "BankSimTemplateCsharp",
-      "projectPath": "/media/paul/Storage/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
+      "projectPath": "/home/paul/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
       "packagesPath": "/home/paul/.nuget/packages/",
-      "outputPath": "/media/paul/Storage/Development/software design/BankSimTemplateCsharp/obj/",
+      "outputPath": "/home/paul/Development/software design/BankSimTemplateCsharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/paul/.nuget/NuGet/NuGet.Config"

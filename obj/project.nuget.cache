@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z+3588zjaJa2j/7MEvhfC2MYtQv0yJe00vJUoDrUjBl+em+5aXOqBS1TMGPai1qFocdoFOzVw37Yxo4osMr/PQ==",
+  "dgSpecHash": "Jids5Kf9ioaqCHD2Qm1B6ZMIOtnnaJb8biDfRC0kEv9Yz4L8XGBYb3K9mS2AqnEa6g3UZ6vH3xFeGUfKLqDFZQ==",
   "success": true,
-  "projectFilePath": "/media/paul/Storage/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
+  "projectFilePath": "/home/paul/Development/software design/BankSimTemplateCsharp/BankSimTemplateCsharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

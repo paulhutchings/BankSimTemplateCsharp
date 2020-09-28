@@ -2,29 +2,33 @@
 namespace BankSim {
     public class Account {
 
-        public volatile int Balance { get; }
-        public readonly int Id { get; }
+        private volatile int balance;
+        public int Id { get; }
 
         public Account(int id, int initialBalance){
-            Balance = initialBalance;
+            this.balance = initialBalance;
             Id = id;
         }
 
         public bool withdrawal(int amount){
-            if (amount <= this.Balance){
-                this.Balance -= amount;
+            if (amount <= this.balance){
+                this.balance -= amount;
                 return true;
             }
             else return false;
         }
 
         public void deposit(int amount){
-            this.Balance += amount;
+            this.balance += amount;
+        }
+
+        public int GetBalance(){
+            return this.balance;
         }
 
         public override string ToString()
         {
-            return $"Account[{this.Id}] has balance {this.Balance}";
+            return $"Account[{this.Id}] has balance {this.balance}";
         }
     }
 }

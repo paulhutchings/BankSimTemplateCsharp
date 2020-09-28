@@ -1,0 +1,4 @@
+/media/paul/Storage/Development/software design/BankSimTemplateCsharp/obj/Debug/netcoreapp3.1/BankSimTemplateCsharp.csprojAssemblyReference.cache
+/media/paul/Storage/Development/software design/BankSimTemplateCsharp/obj/Debug/netcoreapp3.1/BankSimTemplateCsharp.AssemblyInfoInputs.cache
+/media/paul/Storage/Development/software design/BankSimTemplateCsharp/obj/Debug/netcoreapp3.1/BankSimTemplateCsharp.AssemblyInfo.cs
+/media/paul/Storage/Development/software design/BankSimTemplateCsharp/obj/Debug/netcoreapp3.1/BankSimTemplateCsharp.csproj.CoreCompileInputs.cache
