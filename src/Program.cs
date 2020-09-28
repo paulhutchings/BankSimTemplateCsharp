@@ -23,6 +23,7 @@ namespace Program
         }
 
         public static void TransferThreadRun(Object argsArr){
+            // Threads will only take up to a single Object arg, so have to workaround that
             Object[] args = (Object[]) argsArr;
             Bank bank = (Bank)args[0];
             int fromAccount = (int) args[1];
