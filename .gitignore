@@ -2,6 +2,11 @@
 # Project specific excludes
 #
 
+#
+# VS Code configuration files
+#
+.vscode/
+
 tomcat
 
 #
